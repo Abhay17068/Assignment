@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>
+    JavaScript Assignment
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="Employee.js"></script>
+</head>
+    
+    <body>   
+    <h1>Employer Master</h1>
+    <div id="main" style="text-align:center">
+  <form name="myForm"  onsubmit="return validateForm()" method="post">
+  <label for="fname">First Name:</label><input type="text" id="fname"><br/><br/>
+  <label for="mname">Middle Name:</label><input type="text" id="mname"><br/><br/>
+  <label for="lname">Last Name:</label><input type="text" id="lname"><br/><br/>
+  <label for="bname">Date of Birth:</label><input type="date" id="bname"><br/><br/>
+  <tr>
+  <td>Gender :  </td>     
+  <td>          
+  <input type="radio" id="male">Male
+  <input type="radio" id="female">Female
+  </td>
+  </tr>
+    <br/>
+    <br/>    
+  <button id="save">Save</button>
+        <button id="cancel">Cancel</button>
+<br/><br/>
+    
+    <label for=actions>Actions:</label><br/><br/>
+    <button id="Add">ADD</button><br/><br/>
+        <button id="Modify">Modify</button><br/><br/>
+        <button id="Delete">Delete</button><br/><br/>
+        
+    </form>
+        </div>
+    </body>
+
+</html>
